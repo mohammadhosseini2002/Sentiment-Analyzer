@@ -28,3 +28,7 @@ def detect_sentiment(text):
         sentiment = "Positive"
 
     return sentiment
+
+# نمونه استفاده از تابع
+text = "این یک متن مثبت است."
+result = detect_sentiment(text)
