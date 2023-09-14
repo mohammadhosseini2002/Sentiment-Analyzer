@@ -32,3 +32,6 @@ def detect_sentiment(text):
 # نمونه استفاده از تابع
 text = "این یک متن مثبت است."
 result = detect_sentiment(text)
+
+# خروجی نهایی
+print(f"Sentiment: {result}")
